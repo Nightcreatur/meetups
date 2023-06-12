@@ -1,8 +1,13 @@
 import React from 'react'
+import NewMeetup from '../components/meetup/NewMeetup'
 
 const NewMeetsup = () => {
     return (
-        <div>NewMeetsup</div>
+        <div>
+            <h1>New Meetups</h1>
+            <NewMeetup />
+        </div>
+
     )
 }
 
